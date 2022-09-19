@@ -14,7 +14,7 @@ The code has been tested with Python 3.7 and runs on Windows 10.
 ## Data
 
 [Caltech-256](https://authors.library.caltech.edu/7694/) 
-is used to train and evaluate the performance.The default path to data is £¨D:/caltech256/256_ObjectCategories/...£©
+is used to train and evaluate the performance.The default path to data is D:/caltech256/256_ObjectCategories/...
 
 ## Running
 
