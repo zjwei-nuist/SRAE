@@ -65,7 +65,7 @@ class Attack:
                                             lr=0.001)
         self.optimizer_D = torch.optim.Adam(self.netDisc.parameters(),
                                             lr=0.001)
-        self.optimizer_R = torch.optim.Adam(self.netDisc.parameters(),
+        self.optimizer_R = torch.optim.Adam(self.netR.parameters(),
                                             lr=0.001)
         # self.loss_fn_vgg = lpips.LPIPS(net='vgg').to(device)
 
