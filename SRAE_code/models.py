@@ -143,26 +143,26 @@ class Generator(nn.Module):
             # state size. image_nc x 28 x 28
         ]
 
-        down_sample_lis = [
-            DownSampleBlock()
+        dimension_reducer_lis = [
+            DimensionReducerBlock()
         ]
 
         self.encoder = nn.Sequential(*encoder_lis)
         self.bottle_neck = nn.Sequential(*bottle_neck_lis)
         self.decoder = nn.Sequential(*decoder_lis)
-        self.down_sample = nn.Sequential(*down_sample_lis)
+        self.dimension_reducer = nn.Sequential(*dimension_reducer_lis)
 
     def forward(self, x):
         x = self.encoder(x)
         x = self.bottle_neck(x)
         x = self.decoder(x)
-        x = self.down_sample(x)
+        x = self.dimension_reducer(x)
         return x
 
 
-class DownSampleBlock(nn.Module):
+class DimensionReducerBlock(nn.Module):
     def __init__(self):
-        super(DownSampleBlock, self).__init__()
+        super(DimensionReducerBlock, self).__init__()
         # self.pooling1 = nn.AvgPool2d(kernel_size=(2, 2))
         # self.pooling1 = nn.MaxPool2d(kernel_size=(2, 2), return_indices=True)
         self.pooling1 = nn.Conv2d(3, 3, kernel_size=(2, 2), stride=2)
