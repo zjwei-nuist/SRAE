@@ -1,0 +1,101 @@
+absl-py==1.4.0
+aiohttp==3.8.4
+aiosignal==1.3.1
+antlr4-python3-runtime==4.9.3
+async-timeout @ file:///C:/b/abs_43ozhz2a8g/croots/recipe/async-timeout_1664876362767/work
+asynctest==0.13.0
+attrs==22.2.0
+blinker==1.4
+brotlipy==0.7.0
+cachetools==5.3.0
+certifi @ file:///C:/b/abs_85o_6fm0se/croot/certifi_1671487778835/work/certifi
+cffi @ file:///C:/b/abs_49n3v2hyhr/croot/cffi_1670423218144/work
+chardet==4.0.0
+charset-normalizer==3.1.0
+click @ file:///C:/ci/click_1646038601470/work
+colorama @ file:///C:/b/abs_a9ozq0l032/croot/colorama_1672387194846/work
+cryptography @ file:///C:/b/abs_8ecplyc3n2/croot/cryptography_1677533105000/work
+cycler==0.11.0
+efficientnet-pytorch==0.7.1
+filelock==3.10.0
+flit_core @ file:///opt/conda/conda-bld/flit-core_1644941570762/work/source/flit_core
+fonttools==4.38.0
+frozenlist @ file:///C:/b/abs_2bb5uzghsi/croot/frozenlist_1670004511812/work
+fsspec==2023.1.0
+google-auth==2.16.1
+google-auth-oauthlib==0.4.6
+grad-cam==1.4.8
+grpcio==1.51.3
+huggingface-hub==0.13.3
+hydra-core==1.3.2
+idna==2.10
+imageio==2.26.0
+importlib-metadata==6.0.0
+importlib-resources==5.12.0
+joblib==1.3.1
+kiwisolver==1.4.4
+kornia==0.6.10
+lightly==1.2.47
+lightly-utils==0.0.2
+lightning-utilities==0.7.1
+lpips==0.1.4
+Markdown @ file:///C:/b/abs_98lv_ucina/croot/markdown_1671541919225/work
+MarkupSafe==2.1.2
+matplotlib==3.5.3
+mkl-fft==1.3.1
+mkl-random @ file:///C:/ci/mkl_random_1626186163140/work
+mkl-service==2.4.0
+multidict==6.0.4
+munch==2.5.0
+networkx==2.6.3
+numpy==1.21.6
+oauthlib==3.2.2
+omegaconf==2.3.0
+opencv-python==4.8.0.74
+packaging==23.0
+pandas==1.3.5
+Pillow==9.4.0
+pretrainedmodels==0.7.4
+protobuf==3.20.3
+pyasn1 @ file:///Users/ktietz/demo/mc3/conda-bld/pyasn1_1629708007385/work
+pyasn1-modules==0.2.8
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+PyJWT @ file:///C:/ci/pyjwt_1657529476747/work
+pyOpenSSL @ file:///C:/b/abs_552w85x1jz/croot/pyopenssl_1677607703691/work
+pyparsing==3.0.9
+PySocks @ file:///C:/ci/pysocks_1594394709107/work
+python-dateutil==2.8.2
+pytorch-lightning==1.9.3
+pytz==2023.3
+PyWavelets==1.3.0
+PyYAML==6.0
+requests @ file:///C:/ci/requests_1657735288441/work
+requests-oauthlib==1.3.1
+rsa==4.9
+scikit-image==0.19.3
+scikit-learn==1.0.2
+scipy==1.7.3
+seaborn==0.12.2
+segmentation-models-pytorch==0.3.2
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+tensorboard==2.11.2
+tensorboard-data-server @ file:///C:/b/abs_2fhvpo862s/croot/tensorboard-data-server_1670853600144/work/tensorboard_data_server-0.6.1-py3-none-any.whl
+tensorboard-plugin-wit @ file:///C:/tf/b/tensorboard-plugin-wit_1660162132996/work/tensorboard_plugin_wit-1.8.1-py3-none-any.whl
+tensorboardX==2.6
+threadpoolctl==3.1.0
+tifffile==2021.11.2
+timm==0.6.12
+torch==1.13.1+cu117
+torchattacks==3.4.0
+torchaudio==0.13.1+cu117
+torchmetrics==0.11.1
+torchvision==0.14.1+cu117
+tqdm==4.64.1
+ttach==0.0.3
+typing_extensions==4.5.0
+urllib3 @ file:///C:/b/abs_9bcwxczrvm/croot/urllib3_1673575521331/work
+Werkzeug==2.2.3
+win-inet-pton @ file:///C:/ci/win_inet_pton_1605306165655/work
+wincertstore==0.2
+yarl==1.8.2
+zipp==3.15.0
